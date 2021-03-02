@@ -1,0 +1,16 @@
+{
+  "name": "appen-connect-web-mock-api",
+  "version": "1.0.0",
+  "description": "Mock API",
+  "main": "index.js",
+  "author": "Fellipe Vasconcelos <fsilva@appen.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^0.16.3"
+  },
+  "scripts": {
+    "start": "node .",
+    "dev": "json-server --watch src/db.json --port=8080"
+  }
+}

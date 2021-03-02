@@ -1,0 +1,55 @@
+{
+  "target-builder-questions": [
+    {
+      "name":"Pets",
+      "items": [
+        {
+            "id":1,
+            "name":"Household pet ownership",
+            "items": [
+              {
+                "id":2,
+                "name":"Type of household pets"
+              }
+            ]
+        },
+        {
+          "id":3,
+          "name":"Household pet ownership 2",
+          "items":[
+            {
+              "id":4,
+              "name":"Type of household pets 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Work & Education",
+      "items": [
+        {
+          "id":5,
+          "name":"Highest level of education",
+          "items": [
+            
+          ]
+        },
+        {
+          "id":6,
+          "name":"Current study",
+          "items": [
+            
+          ]
+        },
+        {
+          "id":7,
+          "name":"Work status",
+          "items": [
+            
+          ]
+        }
+      ]
+    }
+  ]
+}
