@@ -4,7 +4,7 @@ const router = jsonServer.router('src/db.json');
 const middlewares = jsonServer.defaults();
 const cors = require('cors');
 
-const PORT = 8088
+const PORT = 8080
 
 server.use(
   cors({
