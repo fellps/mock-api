@@ -1,15 +1,16 @@
 {
-  "target-builder-questions": [
+  "profile-builder-questions": [
     {
+      "id": 1,
       "name":"Pets",
       "items": [
         {
-          "id": 1,
+          "id": 2,
           "name":"Household pet ownership",
           "description": "Do you have any pets in your household?",
           "items": [
             {
-              "id": 2,
+              "id": 3,
               "name":"Type of household pets",
               "description": "What types of pet(s) do you have in your household?"
             }
@@ -18,27 +19,28 @@
       ]
     },
     {
+      "id": 4,
       "name": "Family & Me",
       "items": [
         {
-          "id": 3,
+          "id": 5,
           "name": "First name",
           "description": "What is your first name?",
           "items": []
         },
         {
-          "id": 4,
+          "id": 6,
           "name": "Last name",
           "description": "What is your surname?",
           "items": []
         },
         {
-          "id": 5,
+          "id": 7,
           "name": "Country of residence",
           "description": "What is your country of residence?",
           "items": [
             {
-              "id": 6,
+              "id": 8,
               "name":"Country of residence tennure",
               "description": "How long have you lived in your current country of residence?"
             }
@@ -47,25 +49,64 @@
       ]
     },
     {
+      "id": 9,
       "name":"Work & Education",
       "items": [
         {
-          "id": 7,
+          "id": 10,
           "name":"Highest level of education",
           "description": "What is your highest level of education received so far?",
           "items": []
         },
         {
-          "id": 8,
+          "id": 11,
           "name":"Current study",
           "description": "Are you currently studying?",
           "items": []
         },
         {
-          "id": 9,
+          "id": 12,
           "name":"Work status",
           "description": "What is your current working status?",
           "items": []
+        }
+      ]
+    }
+  ],
+  "profile-builder-questions-id": [
+    {
+      "id": 1,
+      "name":"Profile Builder 01",
+      "questions": [
+        {
+          "id": 2,
+          "attributes": [
+            {
+              "name": "Primary/ Elementary",
+              "value": 1,
+              "checked": true
+            },
+            {
+              "name": "Middle/ Junior school",
+              "value": 2,
+              "checked": true
+            },
+            {
+              "name": "High school",
+              "value": 3,
+              "checked": true
+            },
+            {
+              "name": "Undergraduate",
+              "value": 4,
+              "checked": false
+            },
+            {
+              "name": "Post-secondary diploma",
+              "value": 5,
+              "checked": false
+            }
+          ]
         }
       ]
     }
