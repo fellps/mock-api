@@ -7,6 +7,10 @@ const middlewares = jsonServer.defaults();
 
 const PORT = 8080;
 
+// server.use(function (req, res, next) {
+//   setTimeout(next, 500);
+// });
+
 server.use(
   cors({
     origin: true,

@@ -1768,5 +1768,599 @@
       "alpha2": "AX",
       "alpha3": "ALA"
     }
+  ],
+  "master-profile-categories": [
+    {
+      "id": 1,
+      "name": "Metadata"
+    },
+    {
+      "id": 2,
+      "name": "Family & Me"
+    },
+    {
+      "id": 3,
+      "name": "Home & Income"
+    },
+    {
+      "id": 4,
+      "name": "Pets"
+    },
+    {
+      "id": 5,
+      "name": "Work & Education"
+    },
+    {
+      "id": 6,
+      "name": "Technology & Communication"
+    },
+    {
+      "id": 7,
+      "name": "Transport"
+    },
+    {
+      "id": 8,
+      "name": "Social"
+    },
+    {
+      "id": 9,
+      "name": "Health & Medical"
+    },
+    {
+      "id": 10,
+      "name": "Leisure & Activities"
+    },
+    {
+      "id": 11,
+      "name": "Experiences"
+    }
+  ],
+  "master-profile-search": [
+    {
+      "id": 1,
+      "name": "Family & Me",
+      "description": "Description",
+      "category": 2,
+      "topics": [
+        {
+          "id": 1,
+          "name": "First name",
+          "description": "What is your first name?"
+        },
+        {
+          "id": 2,
+          "name": "Last name",
+          "description": "What is your surname?"
+        },
+        {
+          "id": 3,
+          "name": "Gender",
+          "description": "Which gender do you identify with?"
+        },
+        {
+          "id": 4,
+          "name": "Country of residence",
+          "description": "What is your country of residence?",
+          "children": [
+            {
+              "id": 5,
+              "name": "Country of residence tennure",
+              "description": "How long have you lived in your current country of residence?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Technology & Communications",
+      "description": "Description",
+      "category": 6,
+      "topics": [
+        {
+          "id": 1,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 2,
+          "name": "Topic",
+          "description": "Description",
+          "children": [
+            {
+              "name": "Subtopic",
+              "description": "Description"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 4,
+          "name": "Topic",
+          "description": "Description"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Work & Education",
+      "description": "Description",
+      "category": 5,
+      "topics": [
+        {
+          "id": 1,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 2,
+          "name": "Topic",
+          "description": "Description",
+          "children": [
+            {
+              "name": "Subtopic",
+              "description": "Description"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 4,
+          "name": "Topic",
+          "description": "Description"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pets",
+      "description": "Description",
+      "category": 4,
+      "topics": [
+        {
+          "id": 1,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 2,
+          "name": "Topic",
+          "description": "Description",
+          "children": [
+            {
+              "name": "Subtopic",
+              "description": "Description"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 4,
+          "name": "Topic",
+          "description": "Description"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Home & Income",
+      "description": "Description",
+      "category": 3,
+      "topics": [
+        {
+          "id": 1,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 2,
+          "name": "Topic",
+          "description": "Description",
+          "children": [
+            {
+              "name": "Subtopic",
+              "description": "Description"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 4,
+          "name": "Topic",
+          "description": "Description"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Transport",
+      "description": "Description",
+      "category": 7,
+      "topics": [
+        {
+          "id": 1,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 2,
+          "name": "Topic",
+          "description": "Description",
+          "children": [
+            {
+              "name": "Subtopic",
+              "description": "Description"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 4,
+          "name": "Topic",
+          "description": "Description"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Social",
+      "description": "Description",
+      "category": 8,
+      "topics": [
+        {
+          "id": 1,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 2,
+          "name": "Topic",
+          "description": "Description",
+          "children": [
+            {
+              "name": "Subtopic",
+              "description": "Description"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 4,
+          "name": "Topic",
+          "description": "Description"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Metadata",
+      "description": "Description",
+      "category": 1,
+      "topics": [
+        {
+          "id": 1,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 2,
+          "name": "Topic",
+          "description": "Description",
+          "children": [
+            {
+              "name": "Subtopic",
+              "description": "Description"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 4,
+          "name": "Topic",
+          "description": "Description"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Family & Me",
+      "description": "Description",
+      "category": "*",
+      "topics": [
+        {
+          "id": 1,
+          "name": "First name",
+          "description": "What is your first name?"
+        },
+        {
+          "id": 2,
+          "name": "Last name",
+          "description": "What is your surname?"
+        },
+        {
+          "id": 3,
+          "name": "Gender",
+          "description": "Which gender do you identify with?"
+        },
+        {
+          "id": 4,
+          "name": "Country of residence",
+          "description": "What is your country of residence?",
+          "children": [
+            {
+              "id": 5,
+              "name": "Country of residence tennure",
+              "description": "How long have you lived in your current country of residence?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Technology & Communications",
+      "description": "Description",
+      "category": "*",
+      "topics": [
+        {
+          "id": 1,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 2,
+          "name": "Topic",
+          "description": "Description",
+          "children": [
+            {
+              "name": "Subtopic",
+              "description": "Description"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 4,
+          "name": "Topic",
+          "description": "Description"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Work & Education",
+      "description": "Description",
+      "category": "*",
+      "topics": [
+        {
+          "id": 1,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 2,
+          "name": "Topic",
+          "description": "Description",
+          "children": [
+            {
+              "name": "Subtopic",
+              "description": "Description"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 4,
+          "name": "Topic",
+          "description": "Description"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pets",
+      "description": "Description",
+      "category": "*",
+      "topics": [
+        {
+          "id": 1,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 2,
+          "name": "Topic",
+          "description": "Description",
+          "children": [
+            {
+              "name": "Subtopic",
+              "description": "Description"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 4,
+          "name": "Topic",
+          "description": "Description"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Home & Income",
+      "description": "Description",
+      "category": "*",
+      "topics": [
+        {
+          "id": 1,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 2,
+          "name": "Topic",
+          "description": "Description",
+          "children": [
+            {
+              "name": "Subtopic",
+              "description": "Description"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 4,
+          "name": "Topic",
+          "description": "Description"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Transport",
+      "description": "Description",
+      "category": "*",
+      "topics": [
+        {
+          "id": 1,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 2,
+          "name": "Topic",
+          "description": "Description",
+          "children": [
+            {
+              "name": "Subtopic",
+              "description": "Description"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 4,
+          "name": "Topic",
+          "description": "Description"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Social",
+      "description": "Description",
+      "category": "*",
+      "topics": [
+        {
+          "id": 1,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 2,
+          "name": "Topic",
+          "description": "Description",
+          "children": [
+            {
+              "name": "Subtopic",
+              "description": "Description"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 4,
+          "name": "Topic",
+          "description": "Description"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Metadata",
+      "description": "Description",
+      "category": "*",
+      "topics": [
+        {
+          "id": 1,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 2,
+          "name": "Topic",
+          "description": "Description",
+          "children": [
+            {
+              "name": "Subtopic",
+              "description": "Description"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Topic",
+          "description": "Description"
+        },
+        {
+          "id": 4,
+          "name": "Topic",
+          "description": "Description"
+        }
+      ]
+    }
   ]
 }
