@@ -1825,28 +1825,47 @@
         {
           "id": 1,
           "name": "First name",
-          "description": "What is your first name?"
+          "description": "What is your first name?",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 2,
           "name": "Last name",
-          "description": "What is your surname?"
+          "description": "What is your surname?",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 3,
           "name": "Gender",
-          "description": "Which gender do you identify with?"
+          "description": "Which gender do you identify with?",
+          "questionType": "MULTIPLE_CHOICE",
+          "answers": [
+            { "name": "Male" },
+            { "name": "Female" },
+            { "name": "Transgender" },
+            { "name": "I do not identify as female, male, or transgender" },
+            { "name": "I prefer not to answer" }
+          ]
         },
         {
           "id": 4,
           "name": "Country of residence",
           "description": "What is your country of residence?",
-          "children": [
-            {
-              "id": 5,
-              "name": "Country of residence tennure",
-              "description": "How long have you lived in your current country of residence?"
-            }
+          "questionType": "DROPDOWN_SELECTION"
+        },
+        {
+          "id": 5,
+          "name": "Country of residence tennure",
+          "description": "How long have you lived in your current country of residence?",
+          "questionType": "MULTIPLE_CHOICE",
+          "parentId": 4,
+          "answers": [
+            { "name": "Less than 12 months" },
+            { "name": "1-2 years" },
+            { "name": "2-3 years" },
+            { "name": "3-4 years" },
+            { "name": "4-5 years" },
+            { "name": "5+ years" }
           ]
         }
       ]
@@ -1860,28 +1879,27 @@
         {
           "id": 1,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 2,
           "name": "Topic",
           "description": "Description",
-          "children": [
-            {
-              "name": "Subtopic",
-              "description": "Description"
-            }
-          ]
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 3,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT",
+          "parentId": 2
         },
         {
           "id": 4,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         }
       ]
     },
@@ -1894,28 +1912,27 @@
         {
           "id": 1,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 2,
           "name": "Topic",
           "description": "Description",
-          "children": [
-            {
-              "name": "Subtopic",
-              "description": "Description"
-            }
-          ]
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 3,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT",
+          "parentId": 2
         },
         {
           "id": 4,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         }
       ]
     },
@@ -1928,28 +1945,27 @@
         {
           "id": 1,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 2,
           "name": "Topic",
           "description": "Description",
-          "children": [
-            {
-              "name": "Subtopic",
-              "description": "Description"
-            }
-          ]
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 3,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT",
+          "parentId": 2
         },
         {
           "id": 4,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         }
       ]
     },
@@ -1962,28 +1978,27 @@
         {
           "id": 1,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 2,
           "name": "Topic",
           "description": "Description",
-          "children": [
-            {
-              "name": "Subtopic",
-              "description": "Description"
-            }
-          ]
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 3,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT",
+          "parentId": 2
         },
         {
           "id": 4,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         }
       ]
     },
@@ -1996,28 +2011,27 @@
         {
           "id": 1,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 2,
           "name": "Topic",
           "description": "Description",
-          "children": [
-            {
-              "name": "Subtopic",
-              "description": "Description"
-            }
-          ]
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 3,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT",
+          "parentId": 2
         },
         {
           "id": 4,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         }
       ]
     },
@@ -2030,28 +2044,27 @@
         {
           "id": 1,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 2,
           "name": "Topic",
           "description": "Description",
-          "children": [
-            {
-              "name": "Subtopic",
-              "description": "Description"
-            }
-          ]
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 3,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT",
+          "parentId": 2
         },
         {
           "id": 4,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         }
       ]
     },
@@ -2064,28 +2077,27 @@
         {
           "id": 1,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 2,
           "name": "Topic",
           "description": "Description",
-          "children": [
-            {
-              "name": "Subtopic",
-              "description": "Description"
-            }
-          ]
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 3,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT",
+          "parentId": 2
         },
         {
           "id": 4,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         }
       ]
     },
@@ -2098,28 +2110,47 @@
         {
           "id": 1,
           "name": "First name",
-          "description": "What is your first name?"
+          "description": "What is your first name?",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 2,
           "name": "Last name",
-          "description": "What is your surname?"
+          "description": "What is your surname?",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 3,
           "name": "Gender",
-          "description": "Which gender do you identify with?"
+          "description": "Which gender do you identify with?",
+          "questionType": "MULTIPLE_CHOICE",
+          "answers": [
+            { "name": "Male" },
+            { "name": "Female" },
+            { "name": "Transgender" },
+            { "name": "I do not identify as female, male, or transgender" },
+            { "name": "I prefer not to answer" }
+          ]
         },
         {
           "id": 4,
           "name": "Country of residence",
           "description": "What is your country of residence?",
-          "children": [
-            {
-              "id": 5,
-              "name": "Country of residence tennure",
-              "description": "How long have you lived in your current country of residence?"
-            }
+          "questionType": "DROPDOWN_SELECTION"
+        },
+        {
+          "id": 5,
+          "name": "Country of residence tennure",
+          "description": "How long have you lived in your current country of residence?",
+          "questionType": "MULTIPLE_CHOICE",
+          "parentId": 4,
+          "answers": [
+            { "name": "Less than 12 months" },
+            { "name": "1-2 years" },
+            { "name": "2-3 years" },
+            { "name": "3-4 years" },
+            { "name": "4-5 years" },
+            { "name": "5+ years" }
           ]
         }
       ]
@@ -2133,28 +2164,27 @@
         {
           "id": 1,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 2,
           "name": "Topic",
           "description": "Description",
-          "children": [
-            {
-              "name": "Subtopic",
-              "description": "Description"
-            }
-          ]
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 3,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT",
+          "parentId": 2
         },
         {
           "id": 4,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         }
       ]
     },
@@ -2167,28 +2197,27 @@
         {
           "id": 1,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 2,
           "name": "Topic",
           "description": "Description",
-          "children": [
-            {
-              "name": "Subtopic",
-              "description": "Description"
-            }
-          ]
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 3,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT",
+          "parentId": 2
         },
         {
           "id": 4,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         }
       ]
     },
@@ -2201,28 +2230,27 @@
         {
           "id": 1,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 2,
           "name": "Topic",
           "description": "Description",
-          "children": [
-            {
-              "name": "Subtopic",
-              "description": "Description"
-            }
-          ]
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 3,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT",
+          "parentId": 2
         },
         {
           "id": 4,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         }
       ]
     },
@@ -2235,28 +2263,27 @@
         {
           "id": 1,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 2,
           "name": "Topic",
           "description": "Description",
-          "children": [
-            {
-              "name": "Subtopic",
-              "description": "Description"
-            }
-          ]
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 3,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT",
+          "parentId": 2
         },
         {
           "id": 4,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         }
       ]
     },
@@ -2269,28 +2296,27 @@
         {
           "id": 1,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 2,
           "name": "Topic",
           "description": "Description",
-          "children": [
-            {
-              "name": "Subtopic",
-              "description": "Description"
-            }
-          ]
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 3,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT",
+          "parentId": 2
         },
         {
           "id": 4,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         }
       ]
     },
@@ -2303,28 +2329,27 @@
         {
           "id": 1,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 2,
           "name": "Topic",
           "description": "Description",
-          "children": [
-            {
-              "name": "Subtopic",
-              "description": "Description"
-            }
-          ]
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 3,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT",
+          "parentId": 2
         },
         {
           "id": 4,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         }
       ]
     },
@@ -2337,28 +2362,27 @@
         {
           "id": 1,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 2,
           "name": "Topic",
           "description": "Description",
-          "children": [
-            {
-              "name": "Subtopic",
-              "description": "Description"
-            }
-          ]
+          "questionType": "OPEN_TEXT"
         },
         {
           "id": 3,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT",
+          "parentId": 2
         },
         {
           "id": 4,
           "name": "Topic",
-          "description": "Description"
+          "description": "Description",
+          "questionType": "OPEN_TEXT"
         }
       ]
     }
